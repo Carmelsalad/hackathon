@@ -1,6 +1,6 @@
 ##############################################################################
 # This runs the unit-tests and data-quality tests that use real data from
-# the SimFin server. These are combined into a single test, so we only have
+# the SimFin server. These are combined into a single hackathon_test, so we only have
 # to download the data once from the SimFin server.
 ##############################################################################
 
@@ -23,7 +23,7 @@ on:
 
 jobs:
   test:
-    # We currently only test with the latest ubuntu version.
+    # We currently only hackathon_test with the latest ubuntu version.
     runs-on: ubuntu-latest
 
     steps:
@@ -52,7 +52,7 @@ jobs:
     - name: Delete simfin data-dir
       run: rm -rf ~simfin_data
 
-    # Write encrypted SimFin API-key to the key-file used by the test-scripts.
+    # Write encrypted SimFin API-key to the key-file used by the hackathon_test-scripts.
     # This allows for download of all SimFin premium datasets. Without this
     # API-key it would raise a SimFin server-error for the premium datasets,
     # which would cause the tests to fail. The API-key should be hidden from
