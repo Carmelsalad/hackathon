@@ -2,18 +2,27 @@ import pandas as pd
 import numpy as np
 import random
 
-threshold = 1.0
+threshold = 0.5
+lower_rand = 0.5
+upper_rand = 1.5
 probability = random.uniform(0, 1)
-min_err = 1
-
-print(probability)
-
 file = 'df_balance_A.csv'
 
 
-# TODO
 def round_sf(num, sig_fig):
-    return num
+    n = str(np.int64(num))
+    if len(n) < sig_fig:
+        return num
+    count = 0
+    answer = ""
+    for i in n:
+        if count == sig_fig:
+            answer += '0'
+        else:
+            answer += i
+            count = count + 1
+
+    return answer
 
 
 def find_sf(number):
@@ -37,21 +46,17 @@ train = pd.read_csv('./hackathon_train/' + file)
 test = pd.read_csv(file)
 numeric_cols = train.select_dtypes(include=['float64', 'int64']).columns
 
-err = min_err
-print(test)
-
 for col in numeric_cols:
     if train[col].std() > 0 and col.find('Year') == -1 and col.find('Date') == -1:
         q75, q25 = np.percentile(train[col], [75, 25])
         iqr = q75 - q25
         if iqr > 0:
-            this_sf = find_sf(train[col].max())
+            this_sf = find_sf(test[col][0])
 
-            fake_value = q25 + random.uniform(0, 2) * iqr
+            fake_value = q25 + random.uniform(lower_rand, upper_rand) * iqr
             fake_value_rounded = round_sf(fake_value, this_sf)
 
             test[col][0] = match_dtype(train[col].max(), fake_value_rounded)
 
-print(test)
 new_name = file[:-4] + '_modified.csv'
 test.to_csv(new_name)
