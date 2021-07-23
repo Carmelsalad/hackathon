@@ -24,9 +24,12 @@ class Uploader:
 
     def upload(self):
         generator = Generator(0.3)
+        report_type = random.choice(list(ReportType))
+        ticker_list = pd.read_csv(f'hackathon_train_full/{report_type.filename_prefix}_train.csv').Ticker.unique()
+        ticker = random.choice(ticker_list)
         object_name, df = generator.generate_report(
-            self._get_ticker(),
-            self._get_report_type(),
+            ticker,
+            report_type,
             False
         )
 
@@ -34,13 +37,6 @@ class Uploader:
         df.to_csv(buffer)
         self._s3.Object(BUCKET_NAME, object_name).put(Body=buffer.getvalue())
         logging.info(f"Upload report {object_name} to s3 successfully")
-
-    def _get_report_type(self) -> ReportType:
-        return random.choice(list(ReportType))
-
-    def _get_ticker(self) -> str:
-        ticker_list = pd.read_csv('df_income_filtered.csv').Ticker.unique()
-        return random.choice(ticker_list)
 
 
 uploader = Uploader()
@@ -51,7 +47,7 @@ def upload():
 
 
 if __name__ == '__main__':
-    schedule.every(1).minutes.do(upload)
+    schedule.every(30).seconds.do(upload)
     logging.info("Starting scheduler")
     while True:
         schedule.run_pending()

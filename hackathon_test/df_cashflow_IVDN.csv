@@ -1,2 +1,11 @@
-SimFinId,Currency,Fiscal Year,Fiscal Period,Publish Date,Restated Date,Shares (Basic),Shares (Diluted),Net Income/Starting Line,Depreciation & Amortization,Non-Cash Items,Change in Working Capital,Change in Accounts Receivable,Change in Inventories,Change in Accounts Payable,Change in Other,Net Cash from Operating Activities,Change in Fixed Assets & Intangibles,Net Change in Long Term Investment,Net Cash from Acquisitions & Divestitures,Net Cash from Investing Activities,Dividends Paid,Cash from (Repayment of) Debt,Cash from (Repurchase of) Equity,Net Cash from Financing Activities,Net Change in Cash,Ticker,Report_Date
-258246,USD,2020,Q2,2020-08-10,2020-08-10,30746560.0,30746560.0,-62394.0,8327.0,8560.0,-48165.0,,,,,-93672.0,0.0,,,0.0,,36584.0,82500.0,97188.0,3516,IVDN,2020-04-30
+Currency,Fiscal Year,Fiscal Period,Publish Date,Restated Date,Shares (Basic),Shares (Diluted),Net Income/Starting Line,Depreciation & Amortization,Non-Cash Items,Change in Working Capital,Net Cash from Operating Activities,Change in Fixed Assets & Intangibles,Net Cash from Investing Activities,Net Cash from Financing Activities,Net Change in Cash,Ticker,Report_Date
+USD,2018,1,2018-03-16,2019-05-01,26732245.0,26732245.0,-146249.0,8878.0,20000.0,6904.0,-110467.0,-4258.0,-4258.0,95294.0,-19431,IVDN,2018-01-31
+USD,2018,2,2018-06-14,2018-06-14,27033872.0,27033872.0,-158023.0,8878.0,17926.0,-16413.0,-147632.0,0.0,0.0,92258.0,-55374,IVDN,2018-04-30
+USD,2018,3,2018-09-24,2018-09-24,27228038.0,27228038.0,-154221.0,8878.0,26065.0,44013.0,-75265.0,0.0,0.0,47329.0,-27936,IVDN,2018-07-31
+USD,2018,4,2019-08-15,2019-08-15,27495105.0,27495105.0,-96132.0,6954.0,39697.0,-36103.0,-85584.0,0.0,0.0,85657.0,73,IVDN,2018-10-31
+USD,2019,1,2019-05-01,2019-05-01,27228038.0,27228038.0,-250368.0,8327.0,18034.0,144475.0,-79532.0,0.0,0.0,45110.0,-34422,IVDN,2019-01-31
+USD,2019,2,2019-07-26,2019-07-26,28211021.0,28211021.0,-128734.0,8056.0,19752.0,75921.0,-25005.0,0.0,0.0,-8418.0,-33423,IVDN,2019-04-30
+USD,2019,3,2019-10-31,2020-09-21,28934049.0,28934049.0,-135069.0,8327.0,2520.0,77289.0,-46933.0,0.0,0.0,38740.0,-8193,IVDN,2019-07-31
+USD,2019,4,2020-03-25,2020-09-21,30459620.0,30459620.0,-327808.0,8327.0,22603.0,181902.0,-114976.0,0.0,0.0,113336.0,-1640,IVDN,2019-10-31
+USD,2020,1,2020-04-30,2020-04-30,30260473.0,30260473.0,-68890.0,8327.0,4784.0,19448.0,-36331.0,0.0,0.0,73630.0,37299,IVDN,2020-01-31
+USD,2020,2,2020-08-10,2020-08-10,30746560.0,30746560.0,-62394.0,8327.0,8560.0,-48165.0,-93672.0,0.0,0.0,97188.0,3516,IVDN,2020-04-30

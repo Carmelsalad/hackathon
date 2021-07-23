@@ -1,2 +1,9 @@
-SimFinId,Currency,Fiscal Year,Fiscal Period,Publish Date,Restated Date,Shares (Basic),Shares (Diluted),Net Income/Starting Line,Depreciation & Amortization,Non-Cash Items,Change in Working Capital,Change in Accounts Receivable,Change in Inventories,Change in Accounts Payable,Change in Other,Net Cash from Operating Activities,Change in Fixed Assets & Intangibles,Net Change in Long Term Investment,Net Cash from Acquisitions & Divestitures,Net Cash from Investing Activities,Dividends Paid,Cash from (Repayment of) Debt,Cash from (Repurchase of) Equity,Net Cash from Financing Activities,Net Change in Cash,Ticker,Report_Date
-592461,USD,2020,Q2,2020-08-14,2021-05-18,2626106.0,2626106.0,-3628131.0,27712.0,665728.0,693604.0,,,,,-1916118.0,,-30534.0,,-30534.0,,,8406927.0,12580930.0,10634278,AKER,2020-06-30
+Currency,Fiscal Year,Fiscal Period,Publish Date,Restated Date,Shares (Basic),Shares (Diluted),Net Income/Starting Line,Depreciation & Amortization,Non-Cash Items,Change in Working Capital,Net Cash from Operating Activities,Change in Fixed Assets & Intangibles,Net Cash from Investing Activities,Net Cash from Financing Activities,Net Change in Cash,Ticker,Report_Date
+USD,2018,3,2018-11-14,2018-11-14,245604.0,245604.0,-3083950.0,60144.0,193692.0,773342.0,-2056772.0,-30516.0,3082227.0,0.0,1025455,AKER,2018-09-30
+USD,2018,4,2019-04-01,2019-04-01,240703.0,240703.0,-3837640.0,61439.0,1078947.0,54548.0,-2642706.0,0.0,-426957.0,1950000.0,-1119663,AKER,2018-12-31
+USD,2019,1,2019-05-20,2019-05-20,260275.0,260275.0,-916958.0,15437.0,22103.0,130683.0,-748735.0,0.0,822502.0,0.0,73767,AKER,2019-03-31
+USD,2019,2,2019-08-14,2019-08-14,260644.0,260644.0,-794891.0,19542.0,134744.0,-221012.0,-861617.0,0.0,469628.0,0.0,-391989,AKER,2019-06-30
+USD,2019,3,2019-11-14,2019-11-14,260890.0,260890.0,-837026.0,19543.0,346754.0,-491497.0,-962226.0,0.0,1077081.0,0.0,114855,AKER,2019-09-30
+USD,2019,4,2020-10-21,2020-10-21,443535.0,443535.0,-1339374.0,19542.0,415852.0,402275.0,-501705.0,6250.0,-6309838.0,6965693.0,154150,AKER,2019-12-31
+USD,2020,1,2020-05-15,2021-05-18,1113424.0,1113424.0,-3538536.0,61934.96153846154,1273678.0,622844.0,-1966983.0,-16044.68,2261901.0,77.0,294995,AKER,2020-03-31
+USD,2020,2,2020-08-14,2021-05-18,2626106.0,2626106.0,-3628131.0,27712.0,665728.0,693604.0,-1916118.0,-16044.68,-30534.0,12580930.0,10634278,AKER,2020-06-30

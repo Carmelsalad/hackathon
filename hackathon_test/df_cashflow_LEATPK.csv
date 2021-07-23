@@ -1,2 +1,10 @@
-SimFinId,Currency,Fiscal Year,Fiscal Period,Publish Date,Restated Date,Shares (Basic),Shares (Diluted),Net Income/Starting Line,Depreciation & Amortization,Non-Cash Items,Change in Working Capital,Change in Accounts Receivable,Change in Inventories,Change in Accounts Payable,Change in Other,Net Cash from Operating Activities,Change in Fixed Assets & Intangibles,Net Change in Long Term Investment,Net Cash from Acquisitions & Divestitures,Net Cash from Investing Activities,Dividends Paid,Cash from (Repayment of) Debt,Cash from (Repurchase of) Equity,Net Cash from Financing Activities,Net Change in Cash,Ticker,Report_Date
-155590,USD,2020,Q2,2020-08-13,2021-05-12,5386723.0,5548476.0,674507.0,190749.0,74428.0,629377.0,,,,,1569061.0,-17671.0,,,-17677.0,,-412207.0,,-412207.0,1182548,LEATPK,2020-06-30
+Currency,Fiscal Year,Fiscal Period,Publish Date,Restated Date,Shares (Basic),Shares (Diluted),Net Income/Starting Line,Depreciation & Amortization,Non-Cash Items,Change in Working Capital,Net Cash from Operating Activities,Change in Fixed Assets & Intangibles,Net Cash from Investing Activities,Net Cash from Financing Activities,Net Change in Cash,Ticker,Report_Date
+USD,2018,2,2018-08-10,2018-08-10,5366382.0,5514452.0,-49455.0,165011.0,5626.0,137214.0,258396.0,-9523.0,-9526.0,-87293.0,66438,LEATPK,2018-06-30
+USD,2018,3,2018-11-13,2018-11-13,5366382.0,5504664.0,1106344.0,174490.0,73908.0,-633604.0,721138.0,-363921.0,-363923.0,-193725.0,170114,LEATPK,2018-09-30
+USD,2018,4,2019-03-27,2019-03-27,5367702.0,5564676.0,-864.0,193340.0,108013.0,-397148.0,-96659.0,-402258.0,-402260.0,517820.0,27503,LEATPK,2018-12-31
+USD,2019,1,2019-05-13,2019-05-13,5380747.0,5556134.0,9238.0,189695.0,181337.0,-190725.0,189545.0,-160353.0,-160354.0,-183056.0,-154224,LEATPK,2019-03-31
+USD,2019,2,2019-08-08,2019-08-08,5386723.0,5548176.0,73700.0,188300.0,-19091.0,-203675.0,39234.0,-31535.0,-31537.0,-93240.0,-63329,LEATPK,2019-06-30
+USD,2019,3,2019-11-12,2019-11-12,5386723.0,5532275.0,1320778.0,191712.0,175539.0,-919163.0,768866.0,-414390.0,-414391.0,132277.0,414265,LEATPK,2019-09-30
+USD,2019,4,2020-03-24,2020-03-24,5386803.0,5547807.0,-27988.0,190510.0,-267179.0,-47380.0,-152037.0,-256738.0,-256741.0,453365.0,166252,LEATPK,2019-12-31
+USD,2020,1,2020-05-13,2021-05-12,5386723.0,5534890.0,362448.0,192052.0,-1591.0,-936814.0,-383905.0,-89548.0,-89554.0,69357.0,-627974,LEATPK,2020-03-31
+USD,2020,2,2020-08-13,2021-05-12,5386723.0,5548476.0,674507.0,190749.0,74428.0,629377.0,1569061.0,-17671.0,-17677.0,-412207.0,1182548,LEATPK,2020-06-30

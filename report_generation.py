@@ -71,7 +71,7 @@ class Generator:
         return df
 
     def generate_report(self, ticker: str, rp_type: ReportType, is_long: bool) -> (str, pd.DataFrame):
-        origin_filename = rp_type.filename_prefix + ticker
+        origin_filename = f'{rp_type.filename_prefix}_{ticker}'
         origin_filename_ext = origin_filename + '.csv'
         df = self._get_df(origin_filename_ext, is_long)
 

@@ -1,2 +1,11 @@
-SimFinId,Currency,Fiscal Year,Fiscal Period,Publish Date,Restated Date,Shares (Basic),Shares (Diluted),Net Income/Starting Line,Depreciation & Amortization,Non-Cash Items,Change in Working Capital,Change in Accounts Receivable,Change in Inventories,Change in Accounts Payable,Change in Other,Net Cash from Operating Activities,Change in Fixed Assets & Intangibles,Net Change in Long Term Investment,Net Cash from Acquisitions & Divestitures,Net Cash from Investing Activities,Dividends Paid,Cash from (Repayment of) Debt,Cash from (Repurchase of) Equity,Net Cash from Financing Activities,Net Change in Cash,Ticker,Report_Date
-706150,USD,2019,Q4,2020-03-30,2020-03-30,2901548.0,2901548.0,-644426.0,355425.0,86342.0,211993.0,,,,,9334.0,-7203.0,,,-7203.0,,-2132.0,,-2132.0,-1,HRT,2019-12-31
+Currency,Fiscal Year,Fiscal Period,Publish Date,Restated Date,Shares (Basic),Shares (Diluted),Net Income/Starting Line,Depreciation & Amortization,Non-Cash Items,Change in Working Capital,Net Cash from Operating Activities,Change in Fixed Assets & Intangibles,Net Cash from Investing Activities,Net Cash from Financing Activities,Net Change in Cash,Ticker,Report_Date
+USD,2017,3,2017-11-13,2017-11-13,2821263.0,2821263.0,-180867.0,405655.0,58595.0,-256528.0,26855.0,-97770.0,-111781.0,271463.0,186537,HRT,2017-09-30
+USD,2017,4,2018-03-26,2018-03-26,2835163.0,2835163.0,-364339.0,402267.0,94309.0,-71904.0,60333.0,-55905.0,-55905.0,427954.0,432382,HRT,2017-12-31
+USD,2018,1,2018-05-15,2018-05-15,2842105.0,2842105.0,-179647.0,395763.0,48915.0,-376783.0,-111752.0,-95536.0,-95536.0,-735735.0,-943023,HRT,2018-03-31
+USD,2018,2,2018-08-14,2018-08-14,2847642.0,2855101.0,33681.0,371842.0,45069.0,26332.0,476924.0,-86166.0,-86166.0,-404723.0,-13965,HRT,2018-06-30
+USD,2018,3,2018-11-13,2018-11-13,2853111.0,2853111.0,-77171.0,362395.0,47000.0,-168414.0,163810.0,-274786.0,-277447.0,116477.0,2840,HRT,2018-09-30
+USD,2018,4,2019-03-19,2019-03-19,2858730.0,2851271.0,-875170.0,374037.0,44694.0,433260.0,-23179.0,-337036.0,-337036.0,359090.0,-1125,HRT,2018-12-31
+USD,2019,1,2019-05-15,2019-05-15,2866608.0,2866608.0,-518773.0,375026.0,74793.0,-480375.0,-549329.0,-105727.0,-105727.0,655025.0,-31,HRT,2019-03-31
+USD,2019,2,2019-08-14,2019-08-14,2877880.0,2877880.0,-470958.0,373556.0,74930.0,702097.0,679625.0,-33337.0,-33337.0,-647469.0,-1181,HRT,2019-06-30
+USD,2019,3,2019-11-14,2019-11-14,2889408.0,2889408.0,-506977.0,359436.0,70813.0,117516.0,40788.0,673072.0,673072.0,-713860.0,0,HRT,2019-09-30
+USD,2019,4,2020-03-30,2020-03-30,2901548.0,2901548.0,-644426.0,355425.0,86342.0,211993.0,9334.0,-7203.0,-7203.0,-2132.0,-1,HRT,2019-12-31

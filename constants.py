@@ -18,4 +18,4 @@ class ReportType(str, Enum):
 
     @property
     def filename_prefix(self):
-        return f'df_{self.value}_'
+        return f'df_{self.value}'
